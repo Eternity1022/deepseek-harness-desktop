@@ -1,0 +1,15 @@
+# 依赖与构建产物
+node_modules/
+dist/
+release/
+runtime/
+
+# 用户数据（含 API 凭据，绝不提交）
+data/
+
+# 日志与缓存
+*.log
+.npm-cache/
+.electron-cache/
+cache/
+.tmptest/

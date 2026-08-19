@@ -1,0 +1,20 @@
+{
+  "name": "deepseek-harness-desktop",
+  "productName": "DeepSeek Harness",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 原生 Windows 桌面应用（数据存储于 D:\\deepseek harness\\data）",
+  "main": "main.js",
+  "author": "DeepSeek Harness Desktop",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "package": "node package.js"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh": "0.1.0-rc.7"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.0",
+    "electron": "43.4.0"
+  }
+}
